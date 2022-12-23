@@ -1,3 +1,4 @@
+task.spawn(function() 
 coroutine.wrap(function()
 while task.wait() do
     local handler = getsenv(game.Players.LocalPlayer.Character.ClientInputHandler).cs
@@ -17,3 +18,4 @@ while task.wait() do
     end
 end
 end)()
+end)
